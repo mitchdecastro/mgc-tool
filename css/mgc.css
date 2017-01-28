@@ -70,3 +70,14 @@ a{
   text-align: center;
   padding: 2rem;
 }
+
+.landing {
+  display: inline-block;
+  width: 100%;
+  height: 900px;
+  background-image: url(img/greenlane-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center;
+}
