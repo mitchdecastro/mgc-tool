@@ -104,9 +104,9 @@ a{
   font-size: 1.8rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .landing {
-    height: 70rem;
+    height: 75rem;
   }
 }
 
@@ -124,7 +124,7 @@ a{
   outline: 0.5rem solid #fff;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 50rem;
+  margin-top: 30rem;
 }
 
 .rsvp:hover {
@@ -137,4 +137,15 @@ a{
     margin-top: 10rem;
     width: 20rem;
   }
+}
+
+.reminder {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.reminder p {
+  font-size: 2.1rem;
 }
