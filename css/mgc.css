@@ -124,7 +124,7 @@ a{
   outline: 0.5rem solid #fff;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 40rem;
+  margin-top: 50rem;
 }
 
 .rsvp:hover {
@@ -132,9 +132,9 @@ a{
   background-color: #fff;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .rsvp {
-    margin-top: 30rem;
+    margin-top: 20rem;
     width: 20rem;
   }
 }
