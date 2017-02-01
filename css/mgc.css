@@ -114,7 +114,7 @@ a{
   display: inline-block;
   height: 6.4rem;
   width: 30rem;
-  padding: 0.35rem;
+  padding: 2rem;
   color: #fff;
   text-align: center;
   font-size: 1.5rem;
@@ -147,4 +147,9 @@ a{
 
 .reminder p {
   font-size: 2.1rem;
+}
+
+.student-thumb {
+  background: #4A4A4A;
+  height: 17rem;
 }
