@@ -125,7 +125,7 @@ a{
   outline: 0.5rem solid #fff;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 3rem;
+  margin-top: 20rem;
 }
 
 .rsvp:hover {
@@ -136,6 +136,7 @@ a{
 
 @media (max-width: 600px) {
   .rsvp {
+    margin-top: 3rem;
   }
 }
 
@@ -156,24 +157,32 @@ a{
 
 .student {
   background: #fff;
-  height: 33rem;
+  height: auto;
   margin-top: 1rem;
 }
 
-.student p {
+.student-name {
   text-align: center;
   margin: 1rem 0 0 0;
 }
 
 .student-thumb {
-  background: #ededed;
-  height: 26rem;
+  height: auto;
+}
+
+.student-thumb p {
+  margin-top: 1rem;
+  text-align: center;
 }
 
 @media (max-width: 800px) {
   .student-thumb{
-    height: 17rem;
+    height: 20rem;
   }
+}
+
+.spacer {
+  height: 10rem;
 }
 
 .info-button {
@@ -200,6 +209,7 @@ a{
 
 .info-button:hover {
   background: #4A4A4A;
+  color: #fff;
   transition: all 300ms ease-in-out;
   outline: 0.5rem solid #000;
 }
