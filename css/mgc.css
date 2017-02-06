@@ -172,6 +172,11 @@ a{
   height: 26rem;
 }
 
+@media (max-width: 800px) {
+  .student-thumb{
+    height: 20rem;
+  }
+}
 
 .info-button {
   display: inline-block;
