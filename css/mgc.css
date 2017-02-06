@@ -37,6 +37,7 @@ a{
 .tabs {
   display: inline-block;
   position: fixed;
+  border-top: solid .2rem #9B9B9B;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -72,7 +73,7 @@ a{
   padding: 2rem;
 }
 
-/* event tab styles */
+/* event page styles */
 
 .landing {
   display: inline-block;
