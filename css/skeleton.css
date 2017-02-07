@@ -43,7 +43,7 @@
     clear: left;
   }
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 800px) {
   .col-group > div {
     width: 25%;
   }
@@ -73,7 +73,7 @@
 }
 
 /* For devices larger than 550px */
-@media (min-width: 650px) {
+@media (min-width: 800px) {
   .container {
     width: 100%; }
   .column,
