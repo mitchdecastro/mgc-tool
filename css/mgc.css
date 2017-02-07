@@ -148,25 +148,15 @@ a{
   margin: 2rem 0 0 0;
 }
 
-.student {
-  height: auto;
-}
 
 .student-thumb {
   width: 100%;
-  margin: 1rem 0 0 0;
 }
 
-.student-name {
-  height: 1rem;
-  padding: 2rem 0 2rem 0;
+.student-thumb p {
+  height: 2rem;
+  padding: 1rem 0 2rem 0;
   text-align: center;
-}
-
-@media (max-width: 800px) {
-  .student-thumb{
-    height: 20rem;
-  }
 }
 
 .spacer {
