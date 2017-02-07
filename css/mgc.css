@@ -140,7 +140,7 @@ a{
 }
 
 .reminder p {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
 }
 
 .header {
@@ -153,6 +153,7 @@ a{
 }
 
 .student-thumb p {
+  color: #000;
   height: 2rem;
   padding: 1rem 0 2rem 0;
   text-align: center;
