@@ -149,22 +149,17 @@ a{
 }
 
 .student {
-  background: #fff;
   height: auto;
-  margin-top: 1rem;
-}
-
-.student-name {
-  text-align: center;
-  margin: 1rem 0 0 0;
 }
 
 .student-thumb {
-  height: auto;
+  width: 100%;
+  margin: 1rem 0 0 0;
 }
 
-.student-thumb p {
-  margin-top: 1rem;
+.student-name {
+  height: 1rem;
+  padding: 2rem 0 2rem 0;
   text-align: center;
 }
 
