@@ -127,6 +127,43 @@
   text-align: center;
 }
 
+.student-pic {
+  margin: 0 0 2rem 0;
+}
+
+.student-pic img {
+  width: 20rem;
+  height: auto;
+  margin: 5rem 0 1rem 0;
+}
+
+.student-pic p {
+  margin: 0;
+}
+
+.student-pic a {
+  color: #000;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+
+  .student-pic {
+    text-align: center;
+  }
+
+  .student-pic img {
+    height: 20rem;
+    width: 20rem;
+  }
+}
+
+.project-img {
+  height: 50rem;
+  background: #ededed;
+  margin: 5rem 0 0 0;
+}
+
 .spacer {
   height: 10rem;
 }
