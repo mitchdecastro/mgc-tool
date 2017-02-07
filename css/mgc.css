@@ -178,7 +178,7 @@ a{
   outline: 0.5rem solid #4A4A4A;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 3rem;
+  margin: 1rem 0 2.5rem 0;
 }
 
 .info-button a {
