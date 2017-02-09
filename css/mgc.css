@@ -159,9 +159,14 @@
 }
 
 .project-img {
-  height: 50rem;
-  background: #ededed;
+  height: auto;
   margin: 5rem 0 0 0;
+}
+
+@media (max-width: 800px) {
+  .project-img {
+    margin: 3rem 0 0 0;
+  }
 }
 
 .spacer {
