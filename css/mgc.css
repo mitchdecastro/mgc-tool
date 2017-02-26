@@ -146,6 +146,10 @@
   font-weight: bold;
 }
 
+.student-pic h5 {
+  margin: 1rem 0 1rem 0;
+}
+
 @media (max-width: 800px) {
 
   .student-pic {
