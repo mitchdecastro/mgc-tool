@@ -57,7 +57,7 @@
   white-space: nowrap;
   overflow-x: scroll;
   overflow-y: hidden;
-  height: 6.9rem;
+  height: 8rem;
 }
 
 .menu > li {
@@ -71,7 +71,7 @@
   text-decoration: none;
   color: #333333;
   font-size: 1.5rem;
-  padding: 1.8rem 1.5rem;
+  padding: 1.8rem 2rem;
 }
 
 .menu-wrapper--special {
@@ -81,7 +81,7 @@
 .menu-wrapper--special::after {
   content: "";
   background: #F4F4F4;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 80%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 45%);
   height: 100%;
   width: 7.2rem;
   position: absolute;
