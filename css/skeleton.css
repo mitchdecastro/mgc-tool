@@ -31,6 +31,8 @@
 .col-group > div {
   padding: 1.5rem;
 }
+/* ^ change this if you want to remove gutters between columns */
+
 @media screen and (min-width: 300px) {
   .col-group {
     overflow: hidden;

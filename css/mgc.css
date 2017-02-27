@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* tab styles */
+
 .tabs {
   display: inline-block;
   position: fixed;
@@ -41,6 +43,56 @@
   padding: 2rem;
 }
 
+/* student nav styles */
+
+.menu-wrapper {
+  overflow: hidden;
+  height: 5.4rem;
+}
+
+.menu {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 6.9rem;
+}
+
+.menu > li {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.menu > li > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.5rem;
+  padding: 1.8rem 1.5rem;
+}
+
+.menu-wrapper--special {
+  position: relative;
+}
+
+.menu-wrapper--special::after {
+  content: "";
+  background: #F4F4F4;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 80%);
+  height: 100%;
+  width: 7.2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu-wrapper--special .menu > li:last-child {
+  padding-right: 3.6rem;
+}
+
 /* event page styles */
 
 .landing {
@@ -52,13 +104,11 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../img/greenlane-bg.jpg);
-
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position:center center;
   background-color: #ededed;
-
   text-align: center;
 }
 
@@ -113,7 +163,7 @@
 
 .header {
   text-align: center;
-  margin: 3rem 0 0 0;
+  margin: 3rem 0 2rem 0;
 }
 
 .student-thumb {
