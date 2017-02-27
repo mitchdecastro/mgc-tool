@@ -100,17 +100,18 @@
 .landing {
   display: inline-block;
   width: 100%;
+  background-color: #5992A5;
+  background-blend-mode: multiply;
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(89, 146, 165, 1),
+      rgba(89, 146, 165, 1)
     ),
     url(../img/greenlane-bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position:center center;
-  background-color: #ededed;
   text-align: center;
 }
 
