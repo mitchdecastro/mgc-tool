@@ -85,10 +85,9 @@
 
 .menu-wrapper--special::after {
   content: "";
-  background: #F4F4F4;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 25%);
   height: 100%;
-  width: 7.2rem;
+  width: 8rem;
   position: absolute;
   top: 0;
   right: 0;
