@@ -171,6 +171,10 @@
   margin: 3rem 0 1rem 0;
 }
 
+.subhead {
+  text-align: center;
+}
+
 .student-thumb {
   width: 100%;
 }
@@ -180,6 +184,10 @@
   height: 2rem;
   padding: 1rem 0 2rem 0;
   text-align: center;
+}
+
+.student-thumb a {
+  text-decoration: none;
 }
 
 .student-pic {
