@@ -309,7 +309,7 @@ span::after {
 .feedback-button-top {
   display: inline-block;
   height: auto;
-  width: 100%;
+  width: 20rem;
   padding: 2rem;
   color: #141414;
   text-align: center;
