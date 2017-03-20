@@ -16,12 +16,11 @@
 }
 
 .tabs p {
-  color: #fff;
   font-size: 1.3rem;
 }
 
 .event {
-  color: #141414;
+  color: #fff;
   height: 8rem;
   width: 33.333333%;
   float: left;
@@ -30,7 +29,7 @@
 }
 
 .students {
-  color: #141414;
+  color: #fff;
   height: 8rem;
   width: 33.333333%;
   float: left;
@@ -38,8 +37,8 @@
   padding: 1.5rem;
 }
 
-.info {
-  color: #141414;
+.explore {
+  color: #fff;
   height: 8rem;
   width: 33.333333%;
   float: left;
@@ -153,6 +152,12 @@ span::after {
   text-align: center;
 }
 
+@media (min-width: 600px) {
+  .landing {
+    height: 25rem;
+  }
+}
+
 .intro {
   width: 100%;
   color: #0C3056;
@@ -165,7 +170,7 @@ span::after {
 }
 
 .description {
-  margin: 2rem 0 0 0;
+  margin: 2.5rem 0 0 0;
   font-size: 1.3rem;
 }
 
@@ -206,7 +211,7 @@ span::after {
 
 .register {
   text-align: center;
-  margin-top: 2rem;
+  margin: 3rem 0 0 0;
   background: #E5E5E5;
   padding: 2rem 0;
 }
@@ -223,6 +228,7 @@ span::after {
   text-align: center;
   background: #0C3056;
   padding: 1rem;
+  letter-spacing: .15rem;
 }
 
 .register-btn a {
