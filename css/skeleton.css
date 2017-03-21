@@ -29,7 +29,7 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .col-group > div {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 /* ^ change this if you want to remove gutters between columns */
 
