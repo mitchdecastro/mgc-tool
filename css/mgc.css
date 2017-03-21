@@ -417,3 +417,20 @@ span::after {
     display: none;
   }
 }
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.contact ul li{
+  display: inline-block;
+  padding: 0.5rem 1rem 0 0;
+}
