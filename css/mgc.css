@@ -141,10 +141,10 @@ span::after {
   background-blend-mode: multiply;
   background:
     linear-gradient(
-      rgba(89, 146, 165, 1),
-      rgba(89, 146, 165, 1)
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
     ),
-    url(../img/greenlane-bg.jpg);
+    url(../img/glab-ceiling-gradient.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -154,7 +154,7 @@ span::after {
 
 @media (min-width: 600px) {
   .landing {
-    height: 25rem;
+    height: 30rem;
   }
 }
 
