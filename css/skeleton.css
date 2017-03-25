@@ -149,7 +149,9 @@ body {
   line-height: 1.6;
   font-weight: 500;
   font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #0C3056; }
+  color: #0C3056;
+  background: #f3f3f3;
+}
 
 
 /* Typography
