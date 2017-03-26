@@ -306,6 +306,12 @@ span::after {
     text-align: center;
   }
 
+  .student-pic img {
+    width: 100%;
+    height: 20rem;
+    margin: 0;
+  }
+
 }
 
 .view-portfolio {
