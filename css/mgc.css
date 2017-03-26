@@ -305,10 +305,27 @@ span::after {
 .view-portfolio {
   display: inline-block;
   padding: 1.5rem 3rem;
-
   margin: .5rem 0rem;
   text-align: center;
   background: #fff;
+}
+
+.view-portfolio:hover {
+  background: #E5E5E5;
+  transition: all 300ms ease-in-out;
+}
+
+.view-resume {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  margin: .5rem 0rem;
+  text-align: center;
+  background: #fff;
+}
+
+.view-resume:hover{
+  background: #E5E5E5;
+  transition: all 300ms ease-in-out;
 }
 
 @media (min-width: 800px) {
@@ -319,15 +336,6 @@ span::after {
   .view-resume {
     width: 20rem;
   }
-}
-
-.view-resume {
-  display: inline-block;
-  padding: 1.5rem 3rem;
-
-  margin: .5rem 0rem;
-  text-align: center;
-  background: #fff;
 }
 
 .project-img {
@@ -366,6 +374,7 @@ span::after {
 
 .info-button a {
   color: #003056;
+  margin-left: 1rem;
 }
 
 .info-next {
@@ -373,15 +382,19 @@ span::after {
   float: right;
 }
 
-.info-icon {
-  display: inline-block;
-  float: left;
-  margin-right: 1rem;
-}
-
 .info-button:hover {
   background: #E5E5E5;
   transition: all 300ms ease-in-out;
+}
+
+.info-button:before{
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
 }
 
 .feedback-button-top {
