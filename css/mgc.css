@@ -151,9 +151,21 @@ span::after {
   text-align: center;
 }
 
+.landing svg {
+  margin: 3.5rem;
+  height: 5rem;
+  width: 13rem;
+}
+
 @media (min-width: 750px) {
   .landing {
-    height: 30rem;
+    height: 28rem;
+  }
+
+  .landing svg {
+    margin: 8rem;
+    height: 10rem;
+    width: 26rem;
   }
 }
 
