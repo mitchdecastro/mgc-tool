@@ -152,9 +152,9 @@ span::after {
 }
 
 .landing svg {
-  margin: 3.5rem;
-  height: 5rem;
-  width: 13rem;
+  margin: 1rem 0 0 0;
+  height: 10rem;
+  width: 18rem;
 }
 
 @media (min-width: 750px) {
