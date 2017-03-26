@@ -185,12 +185,6 @@ span::after {
   font-size: 1.3rem;
 }
 
-/*@media (max-width: 320px) {
-  .description {
-    display: none;
-  }
-}*/
-
 .rsvp {
   display: inline-block;
   height: 6.4rem;
@@ -311,16 +305,26 @@ span::after {
 .view-portfolio {
   display: inline-block;
   padding: 1.5rem 3rem;
-  width: 20rem;
+
   margin: .5rem 0rem;
   text-align: center;
   background: #fff;
 }
 
+@media (min-width: 800px) {
+  .view-portfolio {
+    width: 20rem;
+  }
+
+  .view-resume {
+    width: 20rem;
+  }
+}
+
 .view-resume {
   display: inline-block;
   padding: 1.5rem 3rem;
-  width: 20rem;
+
   margin: .5rem 0rem;
   text-align: center;
   background: #fff;
@@ -417,6 +421,7 @@ span::after {
   padding: 2rem;
   color: #003056;
   text-decoration: none;
+  text-align: center;
   white-space: nowrap;
   background-color: #fff;
   cursor: pointer;
