@@ -291,13 +291,13 @@ span::after {
   margin: 0;
 }
 
-.student-pic a {
-  color: #003056;
-  font-weight: bold;
-}
-
 .student-pic h5 {
   margin: 1rem 0 1rem 0;
+}
+
+.student-pic a {
+  color: #003056;
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {
@@ -306,6 +306,24 @@ span::after {
     text-align: center;
   }
 
+}
+
+.view-portfolio {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  width: 20rem;
+  margin: .5rem 0rem;
+  text-align: center;
+  background: #fff;
+}
+
+.view-resume {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  width: 20rem;
+  margin: .5rem 0rem;
+  text-align: center;
+  background: #fff;
 }
 
 .project-img {
@@ -366,17 +384,15 @@ span::after {
   display: inline-block;
   height: auto;
   width: 20rem;
-  padding: 2rem;
+  padding: 1.5rem 3rem;
   color: #003056;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 500;
   text-decoration: none;
   white-space: nowrap;
   background-color: #fff;
   cursor: pointer;
   box-sizing: border-box;
-  margin: 4rem 0 0 0;
+  text-align: center;
+  margin: .5rem 0rem;
 }
 
 .feedback-button-top a {
@@ -400,9 +416,6 @@ span::after {
   width: 100%;
   padding: 2rem;
   color: #003056;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 500;
   text-decoration: none;
   white-space: nowrap;
   background-color: #fff;
