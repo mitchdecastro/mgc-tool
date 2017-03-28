@@ -245,8 +245,7 @@ span::after {
 }
 
 .student-thumb img {
-  background-color: #53C1DD;
-  background-blend-mode: multiply;
+  background-color: #003056;
 }
 
 .student-thumb p {
