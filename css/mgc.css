@@ -61,7 +61,7 @@ span {
 
 span::after {
   margin: 0 0 0 1rem;
-  content: "▼";
+  content: "▾";
 }
 
 @media (min-width: 800px) {
