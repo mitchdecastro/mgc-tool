@@ -246,6 +246,7 @@ span::after {
 
 .student-thumb img {
   background-color: #003056;
+  width: 100%;
 }
 
 .student-thumb p {
