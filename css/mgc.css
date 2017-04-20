@@ -108,7 +108,7 @@ span::after {
   display: inline-block;
   text-decoration: none;
   color: #333333;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 1rem 2rem 1rem 2rem;
 }
 
@@ -118,7 +118,7 @@ span::after {
 
 .menu-wrapper--special::after {
   content: "";
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #f3f3f3 25%);
+
   height: 100%;
   width: 6rem;
   position: absolute;
@@ -231,6 +231,44 @@ span::after {
   transition: all 300ms ease-in-out;
 }
 
+.map {
+  background: #7F7F7F;
+}
+
+.map:hover {
+  background: #000;
+}
+
+.bar {
+  background: #003056;
+  width: 100%;
+  height: 1rem;
+}
+
+.gd-bar {
+  background: #53C1DD;
+  width: 100%;
+  height: 1rem;
+}
+
+.ad-bar {
+  background: #F95474;
+  width: 100%;
+  height: 1rem;
+}
+
+.ind-bar {
+  background: #834AAA;
+  width: 100%;
+  height: 1rem;
+}
+
+.int-bar {
+  background: #F4B242;
+  width: 100%;
+  height: 1rem;
+}
+
 .header {
   text-align: center;
   margin: 3rem 0 1rem 0;
@@ -338,6 +376,10 @@ span::after {
   outline: 1px #e7e7e7 solid;
   line-height: 0;
   font-size: 0;
+}
+
+.project-img img {
+  width: 100%;
 }
 
 @media (max-width: 800px) {
